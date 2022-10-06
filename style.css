@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-<<<<<<< Updated upstream
     background-color: rgb(253, 249, 251);
 }
 
@@ -42,7 +41,7 @@ body {
 
 .dashboard-content {
     padding: 0px;
-=======
+
 }
 
 .mainClass {
@@ -55,5 +54,4 @@ body {
     height: 200px;
     align-items: flex-start;
     margin-left: 20px;
->>>>>>> Stashed changes
 }
