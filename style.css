@@ -1,3 +1,40 @@
 body {
     margin: 0px;
+    background-color: rgb(253, 249, 251);
+}
+
+/*   Main Content Section  */
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    width:55%;
+    height:80%;
+    margin-left:35%;
+}
+.mainNav{
+    display:inline-flex;
+    margin: 2% 4%;
+    align-items: flex-start;
+}
+.main-nav-icon{
+  width:1.5rem;
+}
+.mainContent h1{
+    margin-bottom: 0px;
+    font-family: 'TheAntiqua SemiLighs';
+}
+.mainContent hr{
+    margin-top: 0px;
+    justify-content: left;
+}
+.mainContent h3{
+    font-family: 'CA Normal Serif Italic';
+    color:rgb(79, 68, 68)
+}
+.dish-img{
+    width:80%;
+} 
+.table{
+    margin-top: 2%;
+    width: 80%;
 }
