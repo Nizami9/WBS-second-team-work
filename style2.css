@@ -475,3 +475,8 @@ color: white;
 .logo-earth{
     width: 80px;
 }
+.nav-icon{
+    width: 60px;
+    margin-right: 50px;
+    margin-left: -50px;
+}
