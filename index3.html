@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+</head>
+
+<body>
+    <section class="main-flex ">
+        <!---   section for vertical nav -->
+        <section class="nav-vertical">
+            <div class='dashboard'>
+                <div class="dashboard-nav">
+                    <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#"
+                            class="brand-logo"><i class="fas fa-anchor"></i> <span><img src="mainNavIcons/saffron.png"></span></a></header>
+                    <nav class="dashboard-nav-list">
+                        <div class="nav-item-divider"></div>
+                        <a href="#" class="dashboard-nav-item"><i class="fas fa-file-upload"></i> Spice & Rice </a>
+                        <div class="nav-item-divider"></div>
+                        <!-- <a href="#" class="dashboard-nav-item"><i class="fas fa-file-upload"></i> Salad </a> -->
+
+
+                        <div class='dashboard-nav-dropdown'><a href="#!"
+                                class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+                                    class="fas fa-photo-video"></i>
+                                Salad </a>
+                            <div class='dashboard-nav-dropdown-menu'><a id="summerSalad" href="#"
+                                    class="dashboard-nav-dropdown-item">summer salad</a><a id="greenSalad" href="#"
+                                    class="dashboard-nav-dropdown-item">green salad</a><a id="beanSalad" href="#"
+                                    class="dashboard-nav-dropdown-item">bean salad</a></div>
+                        </div>
+                        <div class='dashboard-nav-dropdown'><a href="#!"
+                                class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+                                    class="fas fa-photo-video"></i>
+                                Spice & more </a>
+                            <div class='dashboard-nav-dropdown-menu'><a id="hunanSauce" href="#"
+                                    class="dashboard-nav-dropdown-item">Hunan Sauce</a><a id="spicyMeatball" href="#"
+                                    class="dashboard-nav-dropdown-item">Spicy Meatball</a><a id="burger" href="#"
+                                    class="dashboard-nav-dropdown-item">Jalapeño Popper Burger</a>
+                            </div>
+                            <div class='dashboard-nav-dropdown'><a href="#!"
+                                    class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+                                        class="fas fa-photo-video"></i>
+                                    Rice </a>
+                                <div class='dashboard-nav-dropdown-menu'><a id="biriyani" href="#"
+                                        class="dashboard-nav-dropdown-item">Biryani.</a><a id="pilaf" href="#"
+                                        class="dashboard-nav-dropdown-item">Pilaf</a><a id="galinhada" href="#"
+                                        class="dashboard-nav-dropdown-item">Galinhada</a></div>
+                            </div>
+                            <div class='dashboard-nav-dropdown'><a href="#!"
+                                    class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i
+                                        class="fas fa-users"></i>
+                                    Main Dish </a>
+                                <div class='dashboard-nav-dropdown-menu'><a href="#"
+                                        class="dashboard-nav-dropdown-item">Baked Honey Mustard Chicken</a><a href="#"
+                                        class="dashboard-nav-dropdown-item">Classic Meatloaf</a><a href="#"
+                                        class="dashboard-nav-dropdown-item">Honey Orange Fish Fillets</a></div>
+                            </div>
+                    </nav>
+                </div>
+                <div class='dashboard-app'>
+                    <header class='dashboard-toolbar'><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a>
+                    </header>
+                </div>
+            </div>
+        </section>
+
+        <!--------  Main Content Section   -->
+        <section class="mainContent">
+            <div class="mainNav" id="main-1">
+                <!-- <div><img class="main-nav-icon" src="mainNavIcons/cookBookIconeFull.png" alt=""></div> -->
+                <div><img class="main-nav-icon" src="mainNavIcons/icon1.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon2.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon3.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon4.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon5.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon6.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon7.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon8.png" alt=""></div>
+                <div><img class="main-nav-icon" src="mainNavIcons/icon9.png" alt=""></div>
+            </div>
+            <div class="contentFrame">
+                <iframe id="summerSaladFrame" src="/recipes/summerSalad.html" title="summerSalad" frameBorder="0"></iframe>
+                <iframe id="greenSaladFrame" src="/recipes/greenSalad.html" title="greenSalad" frameBorder="0"></iframe>
+                <iframe id="beanSaladFrame" src="/recipes/beanSalad.html" title="beanSalad" frameBorder="0"></iframe>
+
+                <iframe id="hunanSauceFrame" src="/recipes/hunanSauce.html" title="hunanSauce" frameBorder="0"></iframe>
+                <iframe id="biriyaniFrame" src="/recipes/biriyani.html" title="biriyani" frameBorder="0"></iframe>
+                <iframe id="pilafFrame" src="/recipes/pilaf.html" title="pilaf" frameBorder="0"></iframe>
+                <iframe id="galinhadaFrame" src="/recipes/galinhada.html" title="galinhada" frameBorder="0"></iframe>
+
+            </div>
+        </section>
+    </section>
+</body>
+<script src="myjs3.js"></script>
+</html>
