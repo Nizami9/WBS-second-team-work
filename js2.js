@@ -18,8 +18,8 @@ $(document).ready(function () {
     });
 });
 
-function showIframe() {
-    document.getElementById("iFrame").src="/dolma.html";
+let showIframe = () => {
+    document.querySelector('#iFrame').src = '/dolma.html';
 }
 
-document.getElementById("dolmaButton").addEventListener("click", showIframe);
+document.querySelector('#dolmaButton').addEventListener("click", showIframe);

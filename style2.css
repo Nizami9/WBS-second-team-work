@@ -24,7 +24,7 @@ body {
     width: 50%;
 }
 
-h1, p {
+h2, p {
     padding-left: 20px;
 }
 
@@ -172,7 +172,7 @@ h1, .h1 {
     top: 0;
     bottom: 0;
     overflow: auto;
-    background-color: #8d1111;
+    background-color: #493ca5;
 }
 
 .dashboard-compact .dashboard-nav {
@@ -210,7 +210,7 @@ h1, .h1 {
 }
 
 .dashboard-nav {
-    background-color: #8d1111;
+    background-color: #4d3da6;
 }
 
 .dashboard-nav a {
