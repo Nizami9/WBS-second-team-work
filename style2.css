@@ -172,7 +172,7 @@ h1, .h1 {
     top: 0;
     bottom: 0;
     overflow: auto;
-    background-color: #373193;
+    background-color: #8d1111;
 }
 
 .dashboard-compact .dashboard-nav {
@@ -210,7 +210,7 @@ h1, .h1 {
 }
 
 .dashboard-nav {
-    background-color: #443ea2;
+    background-color: #8d1111;
 }
 
 .dashboard-nav a {
