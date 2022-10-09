@@ -18,45 +18,59 @@
 <body>
     <div class='dashboard'>
         <div class="dashboard-nav">
-            <header><a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a><a href="#" class="brand-logo">
-              <img class="logorata" src="/mainNavIcons/output-onlinepngtools (1).png" alt=""><span>Ratatouille</span></a></header>
-            <nav class="dashboard-nav-list"><a href="#" class="dashboard-nav-item active"><i class="fas fa-home"></i>
-                Home </a><
-                    <a href="/index3.html" class="dashboard-nav-item"><i class="fas fa-file-upload"></i>Our partner</a>
+            <header>
+              <a href="#!" class="menu-toggle"></a>
+                <a href="#" class="brand-logo">
+              <img class="logorata" src="/mainNavIcons/output-onlinepngtools (1).png" alt="">
+              <span>Ratatouille</span>
+            </a>
+          </header>
+            <nav class="dashboard-nav-list">
+              <a href="#" class="dashboard-nav-item active">Home</a>
+                <a href="" class="dashboard-nav-item"></a>
                 <div class='dashboard-nav-dropdown'>
-                    <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle" id="cuisineButton">Cuisine</a>
-                    <div class='dashboard-nav-dropdown-menu'><a href="#"
-                                                                class="dashboard-nav-dropdown-item">All</a><a
-                            href="#" class="dashboard-nav-dropdown-item">Recipes</a><a
-                            href="#" class="dashboard-nav-dropdown-item">Images</a><a
-                            href="#" class="dashboard-nav-dropdown-item">Video</a></div>
-                </div>
-                <div class='dashboard-nav-dropdown'><a href="#!"
-                        class="dashboard-nav-item dashboard-nav-dropdown-toggle" id="eventsButton"><i class="fas fa-users"></i>Our Events</a>
-                    <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">Payments</a><a
-                            href="#" class="dashboard-nav-dropdown-item">Subscribed</a><a href="#"
-                            class="dashboard-nav-dropdown-item">Non-subscribed</a><a href="#"
-                            class="dashboard-nav-dropdown-item">Banned</a><a href="#"
-                            class="dashboard-nav-dropdown-item">New</a></div>
-                </div>
-                <div class='dashboard-nav-dropdown'><a href="#!"
-                        class="dashboard-nav-item dashboard-nav-dropdown-toggle"><i class="fas fa-money-check-alt"></i>
-                        Payments </a>
-                    <div class='dashboard-nav-dropdown-menu'><a href="#" class="dashboard-nav-dropdown-item">All</a><a
-                            href="#" class="dashboard-nav-dropdown-item">Recent</a><a href="#"
-                            class="dashboard-nav-dropdown-item"> Projections</a>
+                    <a href="#!" class="dashboard-nav-item" id="cuisineButton">Cuisine</a>
+                    <a href="#!" class="dashboard-nav-item" id="eventsButton">Events</a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                      <a href="#" class="dashboard-nav-dropdown-item">All</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">Recipes</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">Images</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">Video</a>
                     </div>
                 </div>
-                <a href="#" class="dashboard-nav-item"><i class="fas fa-cogs"></i>Recipes</a>
-                <a href="#" class="dashboard-nav-item" id="ourChiefButton"><i class="fas fa-user"></i>Our Chief</a>
+                <div class='dashboard-nav-dropdown'>
+                    <div class='dashboard-nav-dropdown-menu'>
+                      <a href="#" class="dashboard-nav-dropdown-item">Payments</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">Subscribed</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">Non-subscribed</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">Banned</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">New</a>
+                    </div>
+                </div>
+                <div class='dashboard-nav-dropdown'>
+                  <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">Payments</a>
+                    <div class='dashboard-nav-dropdown-menu'>
+                      <a href="#" class="dashboard-nav-dropdown-item">All</a>
+                      <a href="#" class="dashboard-nav-dropdown-item">Recent</a>
+                      <a href="#" class="dashboard-nav-dropdown-item"> Projections</a>
+                    </div>
+                </div>
+                <a href="#" class="dashboard-nav-item">Recipes</a>
+                <a href="#" class="dashboard-nav-item dashboard-nav-dropdown-toggle" id="ourChiefButton">Our Chiefs</a>
+                <a href="#!" class="dashboard-nav-item" id="staffButton">Staff</a>
                 <div class="nav-item-divider"></div>
-                <a href="#" class="dashboard-nav-item"><i class="fas fa-sign-out-alt"></i>Delivery</a>
+                <a href="#" class="dashboard-nav-item">Delivery</a>
             </nav>
         </div>
         <div class='dashboard-app'>
             <header class='dashboard-toolbar'>
                <img src="/mainNavIcons/output-onlinepngtools.png" alt="" width="50px">
-                <h1>Anyone Can Cook</h1>
+                <h1 class="title">Anyone Can</h1>
+                <div class="rotate-words">
+                  <h2 style="--d: 0s">COOK</h2>
+                  <h2 style="--d: 4s">EAT</h2>
+                  <h2 style="--d: 8s">SLEEP</h2>
+              </div>
                 <a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
             <div class='dashboard-content'>
                 <div class='container'>
@@ -215,18 +229,13 @@
               </div>
             </div>
           </section>
-          <!-- Section: Images -->
         </div>
-        <!-- Grid container -->
       
-        <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
           © 2020 Copyright:
           <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>
-        <!-- Copyright -->
       </footer>
-    <!-- JavaScript Bundle with Popper -->
     <script src="/js2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
@@ -239,8 +248,14 @@
 let showEvents = () => {
   document.querySelector('#iFrame').src = '/ourEvents.html';
 }
+
+let showStaff = () => {
+  document.querySelector('#iFrame').src = '/ourstaff.html';
+
+}
 document.querySelector('#cuisineButton').addEventListener("click", showCuisine);
-document.querySelector('#eventsButton').addEventListener('click', showEvents)
+document.querySelector('#eventsButton').addEventListener('click', showEvents);
+document.querySelector('#staffButton').addEventListener('click', showStaff);
         </script>
 </body>
 

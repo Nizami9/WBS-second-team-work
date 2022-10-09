@@ -17,6 +17,8 @@ html {
 .carousel-item img {
     height: 361px;
 }
+
+
 .card-body {
     width: 600px;
     display: contents;
@@ -401,7 +403,7 @@ h1, .h1 {
 
 .dashboard-toolbar {
     min-height: 84px;
-    background-color: #dfdfdf;
+    background-color: #d2d1d1;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -437,9 +439,45 @@ h1, .h1 {
     padding-right: 15px;
 }
 
+
 .dashboard-content > .container {
     display: flex;
     padding-top: inherit;
+}
+
+.rotate-words {
+    display: inline;
+    margin-left: 10px;
+}
+.title {
+    position: relative;
+}
+.rotate-words h2 {
+    width: max-content;
+    position: absolute;
+    background-color: #bebbd1;
+    padding-inline: 10px;
+    opacity: 0;
+    transform-origin: 10% 75%;
+    animation: rotate-words 12s var(--d) linear infinite;
+}
+
+@keyframes rotate-words {
+    5% {
+        opacity: 1;
+    }
+
+    10%, 20% {
+        opacity: 1;
+        transform: rotate(3deg);
+    }
+    15% {
+        transform: rotate(-1deg);
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(90px) rotate(10deg);
+    }
 }
 
 @media (min-width: 992px) {
