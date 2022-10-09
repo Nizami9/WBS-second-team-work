@@ -74,7 +74,7 @@
                 <a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
             <div class='dashboard-content'>
                 <div class='container'>
-                      <iframe class="iframeClass" id="iFrame" src="/ourstaff.html">
+                      <iframe class="iframeClass" id="iFrame" src="/menu/ourstaff.html">
                       </iframe>
                             <section class="main">
                                     <div class="card-body">
@@ -242,15 +242,15 @@
         crossorigin="anonymous"></script>
         <script>
     let showCuisine = () => {
-    document.querySelector('#iFrame').src = '/cuisine.html';
+    document.querySelector('#iFrame').src = '/menu/cuisine.html';
 }
 
 let showEvents = () => {
-  document.querySelector('#iFrame').src = '/ourEvents.html';
+  document.querySelector('#iFrame').src = '/menu/ourEvents.html';
 }
 
 let showStaff = () => {
-  document.querySelector('#iFrame').src = '/ourstaff.html';
+  document.querySelector('#iFrame').src = '/menu/ourstaff.html';
 
 }
 document.querySelector('#cuisineButton').addEventListener("click", showCuisine);
