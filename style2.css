@@ -38,7 +38,9 @@ html {
 h2, p {
     padding-left: 20px;
 }
-
+.fas, .fa-bars {
+    visibility: hidden;
+}
 
 :root {
     --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont,
@@ -506,6 +508,9 @@ h1, .h1 {
         left: 0;
         bottom: 0;
         z-index: 1070;
+    }
+    .fas, .fa-bars {
+        visibility: visible;
     }
 
     .dashboard-nav.mobile-show {
