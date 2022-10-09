@@ -17,3 +17,9 @@ $(document).ready(function () {
         }
     });
 });
+
+function showIframe() {
+    document.getElementById("iFrame").src="/dolma.html";
+}
+
+document.getElementById("dolmaButton").addEventListener("click", showIframe);
