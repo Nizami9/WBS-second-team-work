@@ -17,9 +17,3 @@ $(document).ready(function () {
         }
     });
 });
-
-let showIframe = () => {
-    document.querySelector('#iFrame').src = '/dolma.html';
-}
-
-document.querySelector('#dolmaButton').addEventListener("click", showIframe);

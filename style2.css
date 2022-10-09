@@ -1,13 +1,22 @@
 body {
     margin: 50px 50px;
+    font-family: 'Oregano', cursive;
 }
 
+html {
+    font-family: 'Oregano', cursive;
+}
 
 .main {
     float: right;
-    width: 50%;
+    width: 55%;
+    text-align: center;
+    text-decoration: none;
 }
 
+.carousel-item img {
+    height: 361px;
+}
 .card-body {
     width: 600px;
     display: contents;
@@ -15,7 +24,7 @@ body {
 }
 
 .card-body img {
-    padding: 10px;
+    padding: 30px;
     width: 50%;
 }
 
@@ -423,8 +432,14 @@ h1, .h1 {
     background-color: #d2d1d1;
 }
 
+.logorata {
+    width: 70px;
+    padding-right: 15px;
+}
+
 .dashboard-content > .container {
     display: flex;
+    padding-top: inherit;
 }
 
 @media (min-width: 992px) {
