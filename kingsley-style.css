@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Alumni+Sans+Pinstripe&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+
+}
+
+.heroPage__container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(253, 249, 251);
+    text-transform: capitalize;
+}
+
+.nav__wrapper {
+    border-right: 1px solid rgb(203, 200, 200);
+
+}
+
+
+.logo__wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+   
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.sanff_logo--img{
+    width: 20px;
+}
+
+.logo__recipes {
+
+    display: flex;
+    justify-content: center;
+}
+
+.spice__link a {
+    display: flex;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+    color: rgb(80, 78, 78);
+}
+
+.border__line {
+    height: 0.5px;
+    width: 100%px;
+    background: rgb(203, 200, 200);
+
+}
+
+.link__item {
+    display: flex;
+    justify-content: center;
+padding-bottom: 30px;
+    border-top: 1px solid rgb(203, 200, 200);
+
+
+
+}
+
+.item-5 {
+    border-top: 1px solid rgb(203, 200, 200);
+    border-bottom: 1px solid rgb(203, 200, 200);
+    width: 200px;
+}
+
+.subItem-6 {
+
+    border-top: 1px solid rgb(203, 200, 200);
+    border-bottom: 1px solid rgb(203, 200, 200);
+    width: 300px;
+
+}
+
+.spice__link--wrapper {
+
+    
+}
+
+.nav__flex-column--a {
+
+
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 25px;
+    border-right: 1px solid rgb(203, 200, 200);
+    height: 700px;
+}
+
+
+.nav__flex-column--b {
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+
+
+}
+.nav-link{
+    color: rgb(80, 78, 78);
+}
+
+ .nav-link:hover {
+    background: rgb(86, 90, 89);
+    color: aliceblue;
+    
+    
+}
+
+.spice__link:hover a{
+    background: rgb(86, 90, 89);
+    color: aliceblue;
+    
+    
+}
+
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+
+}
+
+
+
+
+
+
+/*   Main Content Section  */
+.mainContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainNav {
+    display: inline-flex;
+    margin: 2% 4%;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    
+
+
+}
+
+.main-nav-icon {
+    width: 2.3rem;
+}
+
+.mainContent h1 {
+    margin-bottom: 0px;
+    font-family: 'TheAntiqua SemiLighs';
+}
+
+.mainContent hr {
+    margin-top: 0px;
+    justify-content: left;
+}
+
+.mainContent h3 {
+    font-family: 'CA Normal Serif Italic';
+    color: rgb(79, 68, 68)
+}
+
+.dish-img {
+    width: 80%;
+}
+
+.table {
+    margin-top: 2%;
+    width: 60%;
+}
