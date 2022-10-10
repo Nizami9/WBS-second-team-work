@@ -17,3 +17,19 @@ $(document).ready(function () {
         }
     });
 });
+
+// let showCuisine = () => {
+//     document.querySelector('#iFrame').src = '/menu/cuisine.html';
+// }
+
+// let showEvents = () => {
+//   document.querySelector('#iFrame').src = '/menu/ourEvents.html';
+// }
+
+// let showStaff = () => {
+//   document.querySelector('#iFrame').src = '/menu/ourstaff.html';
+
+// }
+// document.querySelector('#cuisineButton').addEventListener('click', showCuisine);
+// document.querySelector('#eventsButton').addEventListener('click', showEvents);
+// document.querySelector('#staffButton').addEventListener('click', showStaff);

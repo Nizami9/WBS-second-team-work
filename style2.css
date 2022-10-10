@@ -1,12 +1,23 @@
 body {
     margin: 50px 50px;
+    font-family: 'Oregano', cursive;
 }
 
+html {
+    font-family: 'Oregano', cursive;
+}
 
 .main {
     float: right;
-    width: 50%;
+    width: 55%;
+    text-align: center;
+    text-decoration: none;
 }
+
+.carousel-item img {
+    height: 361px;
+}
+
 
 .card-body {
     width: 600px;
@@ -15,7 +26,7 @@ body {
 }
 
 .card-body img {
-    margin: 20px;
+    padding: 30px;
     width: 50%;
 }
 
@@ -24,10 +35,12 @@ body {
     width: 50%;
 }
 
-h1, p {
+h2, p {
     padding-left: 20px;
 }
-
+.fas, .fa-bars {
+    visibility: hidden;
+}
 
 :root {
     --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont,
@@ -175,7 +188,7 @@ color: white;
     top: 0;
     bottom: 0;
     overflow: auto;
-    background-color: #2D7D8F;
+    background-color: #493ca5;
 }
 
 .dashboard-compact .dashboard-nav {
@@ -213,7 +226,7 @@ color: white;
 }
 
 .dashboard-nav {
-    background-color: #2D7D8F;
+    background-color: #4d3da6;
 }
 
 .dashboard-nav a {
@@ -395,7 +408,7 @@ color: white;
 
 .dashboard-toolbar {
     min-height: 84px;
-    background-color: #dfdfdf;
+    background-color: #d2d1d1;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -418,6 +431,59 @@ color: white;
     margin: 1rem 0;
     overflow: hidden;
     background-color: rgba(236, 238, 239, 0.3);
+}
+
+.iframeClass {
+    width: 45%;
+    margin-right: 30px;
+    transition: all 500ms;
+    background-color: #d2d1d1;
+}
+
+.logorata {
+    width: 70px;
+    padding-right: 15px;
+}
+
+
+.dashboard-content > .container {
+    display: flex;
+    padding-top: inherit;
+}
+
+.rotate-words {
+    display: inline;
+    margin-left: 10px;
+}
+.title {
+    position: relative;
+}
+.rotate-words h2 {
+    width: max-content;
+    position: absolute;
+    background-color: #bebbd1;
+    padding-inline: 10px;
+    opacity: 0;
+    transform-origin: 10% 75%;
+    animation: rotate-words 12s var(--d) linear infinite;
+}
+
+@keyframes rotate-words {
+    5% {
+        opacity: 1;
+    }
+
+    10%, 20% {
+        opacity: 1;
+        transform: rotate(3deg);
+    }
+    15% {
+        transform: rotate(-1deg);
+    }
+    25% {
+        opacity: 0;
+        transform: translateY(90px) rotate(10deg);
+    }
 }
 
 @media (min-width: 992px) {
@@ -447,6 +513,9 @@ color: white;
         bottom: 0;
         z-index: 1070;
     }
+    .fas, .fa-bars {
+        visibility: visible;
+    }
 
     .dashboard-nav.mobile-show {
         display: block;
@@ -470,13 +539,4 @@ color: white;
     .dashboard-compact .dashboard-toolbar {
         left: 0;
     }
-}
-
-.logo-earth{
-    width: 80px;
-}
-.nav-icon{
-    width: 60px;
-    margin-right: 50px;
-    margin-left: -50px;
 }
