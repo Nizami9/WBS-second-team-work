@@ -35,9 +35,9 @@
                   <div class='dashboard-nav-dropdown'>
                     <a href="#!" class="dashboard-nav-item dashboard-nav-dropdown-toggle">Our Chiefs</a>
                               <div class='dashboard-nav-dropdown-menu'>
-                                <a id="summerSalad" href="#" class="dashboard-nav-dropdown-item">Kingsley</a>
+                                <a id="summerSalad" href="/index.html" class="dashboard-nav-dropdown-item">Kingsley</a>
                                 <a id="greenSalad" href="#" class="dashboard-nav-dropdown-item">Roxana</a>
-                                <a id="beanSalad" href="#" class="dashboard-nav-dropdown-item">Shafia</a>
+                                <a id="beanSalad" href="/index3.html" class="dashboard-nav-dropdown-item">Shafia</a>
                               </div>
                   </div>
                     <a href="#!" class="dashboard-nav-item" id="cuisineButton">Cuisine</a>
@@ -45,7 +45,7 @@
                 <a href="#" class="dashboard-nav-item">Recipes</a>                
                 <a href="#!" class="dashboard-nav-item" id="staffButton">Staff</a>
                 <div class="nav-item-divider"></div>
-                <a href="#" class="dashboard-nav-item">Delivery</a>
+                <a href="#" class="dashboard-nav-item" id="feedbackButton">Feedback</a>
             </nav>
         </div>
         <div class='dashboard-app'>
@@ -57,7 +57,7 @@
                   <h2 style="--d: 4s">EAT</h2>
                   <h2 style="--d: 8s">SLEEP</h2>
               </div>
-                <a href="#!" class="menu-toggle"><i class="fas fa-bars"></i></a></header>
+                <a href="#!" class="menu-toggle"></a></header>
             <div class='dashboard-content'>
                 <div class='container'>
                       <iframe class="iframeClass" id="iFrame" src="/menu/ourstaff.html">
@@ -231,18 +231,24 @@
     document.querySelector('#iFrame').src = '/menu/cuisine.html';
 }
 
-let showEvents = () => {
+    let showEvents = () => {
   document.querySelector('#iFrame').src = '/menu/ourEvents.html';
 }
 
-let showStaff = () => {
+let showFeedback = () => {
+  document.querySelector('#iFrame').src = '/menu/form.html';
+}
+
+    let showStaff = () => {
   document.querySelector('#iFrame').src = '/menu/ourstaff.html';
 
+
 }
-document.querySelector('#cuisineButton').addEventListener("click", showCuisine);
+document.querySelector('#cuisineButton').addEventListener('click', showCuisine);
 document.querySelector('#eventsButton').addEventListener('click', showEvents);
 document.querySelector('#staffButton').addEventListener('click', showStaff);
-        </script>
+document.querySelector('#feedbackButton').addEventListener('click', showFeedback);
+</script>
 </body>
 
 </html>
