@@ -140,9 +140,11 @@ h1, .h1 {
 .card-header {
     padding: 0.75rem 1.25rem;
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.03);
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    text-align: center;
+    text-align: left;
+    font-size: 2rem;
+    background-color: #2D7D8F;
+color: white;
 }
 
 .dashboard {
@@ -151,6 +153,7 @@ h1, .h1 {
     display: -ms-flexbox;
     display: flex;
     min-height: 100vh;
+    background-color: white;
 }
 
 .dashboard-app {
@@ -391,12 +394,12 @@ h1, .h1 {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #443ea2;
+    color: #2D7D8F;
 }
 
 .menu-toggle:hover, .menu-toggle:active, .menu-toggle:focus {
     text-decoration: none;
-    color: #875de5;
+    color: #8DED8E;
 }
 
 .menu-toggle i {
@@ -420,6 +423,7 @@ h1, .h1 {
     right: 0;
     left: 0;
     z-index: 1000;
+    background-color: #8DED8E;
 }
 
 .nav-item-divider {
@@ -536,4 +540,3 @@ h1, .h1 {
         left: 0;
     }
 }
-
